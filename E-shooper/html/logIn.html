@@ -1,0 +1,103 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login/E-street</title>
+    <!-- //icon  -->
+    <link rel="shortcut icon" href="/icon/MAPS41MDahZ9QdKXhVa4dWB9RuyfV4XqhyAZ8XcYepb.png" type="image/x-icon">
+    <!-- //css file  -->
+    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="../style/animated.css">
+</head>
+<style>
+    .top__form {
+        position: relative;
+    }
+    
+    .top__form #invladPasswordInfor {
+        position: absolute;
+        top: 13em;
+        left: 13em;
+        color: red;
+        background: #00000087;
+        padding: 10;
+        font-size: small;
+        display: none;
+        z-index: 1;
+    }
+</style>
+
+<body>
+    <header class="header">
+        <div class="header__title" title="E-street">
+            <a href="../index.html">
+                <h2>E-Str<span class="colored">ee</span>t</h2>
+            </a>
+        </div>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li class="li_link"><a href="../index.html" title="home">Home</a></li>
+                <li class="li_link"><a href="#new" title="new">new</a></li>
+                <li class="li_link"><a href="#about" title="about">about</a></li>
+                <li class="li_link"><a href="#service" title="service">Service</a></li>
+                <li class="li_link"><a href="#contant" title="contant">Contant</a></li>
+                <li class="li_link"><a href="../html/logIn.html" title="login">login</a></li>
+                <li>
+                    <div class="socialLink">
+                        <div class="fb" title="facebook"> <img src="../icon/facebook.png" alt="fn"></div>
+                        <div class="tweer" title="twitter"> <img src="../icon/twitter - Copy.png" alt="fn"></div>
+                    </div>
+                </li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <main class="main">
+        <div class="div__form">
+            <div class="top__form">
+                <div class="dp__form"></div>
+                <div class="username__form">Your Name!</div>
+                <p id="invladPasswordInfor">invalid password</p>
+            </div>
+            <div class="bottom__form">
+                <form action="">
+                    <input type="email" placeholder="Email" required id="email">
+                    <input type="password" placeholder="password" required id="password">
+                    <div class="form__links">
+                        <a href="../html/singIn.html">get an account</a>
+                        <p>or</p>&nbsp;
+                        <a href="forgetPassowrd.html" class="a__forget">forget password?</a>
+                    </div>
+                    <input type="submit" value="Login" title="login">
+                </form>
+                <div class="lines">
+                    <div class="form__line line1"></div>
+                    <p>Or</p>
+                    <div class="form__line line2"></div>
+                </div>
+                <div class="form__goWith">
+                    <div class="goWith google">
+                        <div class="goWith__icon icon__g">
+                            <img src="/icon/facebook.png" alt="">
+                        </div>
+                        Countiue with google
+                    </div>
+                    <div class="goWith facebook">
+                        <div class="goWith__icon icon__fb">
+                            <img src="/icon/facebook.png" alt="">
+                        </div>
+                        Countiue with facebook
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <script src="../script/login.js"></script>
+</body>
+
+</html>

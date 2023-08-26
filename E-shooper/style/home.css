@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: black;
+    height: 10vh;
+}
+
+.header__title {
+    color: aliceblue;
+    font-size: 5em;
+}
+
+main {
+    display: flex;
+}
+
+main section {
+    height: 90vh;
+}
+
+section:nth-child(1) {
+    background-color: rgb(230, 230, 230);
+    width: 20%;
+}
+
+section:nth-child(2) {
+    background-color: rgb(149, 149, 149);
+    width: 60%;
+    overflow: scroll;
+    padding: 20px;
+    text-align: justify;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    background-color: transparent;
+}
+
+section:nth-child(3) {
+    background-color: rgb(230, 230, 230);
+    width: 20%;
+}

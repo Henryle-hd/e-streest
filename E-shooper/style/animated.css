@@ -1,0 +1,83 @@
+.one {
+    opacity: 1;
+    animation: animate2 .3s ease-in-out forwards;
+    -webkit-animation: animate2 .3s ease-in-out forwards;
+    position: relative;
+}
+
+.two {
+    opacity: 1;
+    animation: animate2 .5s ease-in-out infinite;
+    -webkit-animation: animate2 .5s ease-in-out forwards;
+    position: relative;
+}
+
+.three {
+    opacity: 1;
+    animation: animate2 .7s ease-in-out forwards;
+    -webkit-animation: animate2 .7s ease-in-out forwards;
+    position: relative;
+}
+
+.four {
+    opacity: 1;
+    animation: animate2 .9s ease-in-out forwards;
+    -webkit-animation: animate2 .9s ease-in-out forwards;
+    position: relative;
+}
+
+.a5 {
+    opacity: 1;
+    animation: animate2 1s ease-in-out forwards;
+    -webkit-animation: animate2 1s ease-in-out forwards;
+    position: relative;
+}
+
+.a6 {
+    opacity: 1;
+    animation: animate2 1.3s ease-in-out forwards;
+    -webkit-animation: animate2 1.3s ease-in-out forwards;
+    position: relative;
+}
+
+.a7 {
+    opacity: 1;
+    animation: animate2 1.5s ease-in-out forwards;
+    -webkit-animation: animate2 1.5s ease-in-out forwards;
+    position: relative;
+}
+
+.a8 {
+    opacity: 1;
+    animation: animate2 1.7s ease-in-out forwards;
+    -webkit-animation: animate2 1.7s ease-in-out forwards;
+    position: relative;
+}
+
+.a9 {
+    opacity: 1;
+    animation: animate2 1.9s ease-in-out forwards;
+    -webkit-animation: animate2 1.9s ease-in-out forwards;
+    position: relative;
+}
+
+.a10 {
+    opacity: 1;
+    animation: animate2 2s ease-in-out forwards;
+    -webkit-animation: animate2 2s ease-in-out forwards;
+    position: relative;
+}
+
+@keyframes animate2 {
+    0% {
+        opacity: 0;
+        left: 1em;
+    }
+    80% {
+        opacity: 0.6;
+        left: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
